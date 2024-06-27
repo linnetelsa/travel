@@ -1,0 +1,133 @@
+
+/* ----navbar----- */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  overflow-x: hidden;
+}
+#logo{
+  width: 100%;
+  height: 100px;
+}
+.navbar{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoRdn6UcYZ81pbS5R4lFBZvw-mnl1LSQbj9rmLtvr8KA&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-item a {
+  color: black ;
+}
+.nav-item a:hover {
+  color: red;
+}
+
+
+
+/* ---main------- */
+.main{
+background-image: url('https://w0.peakpx.com/wallpaper/151/630/HD-wallpaper-dark-forest-dark-forest-nature-river-water.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 100vh;
+ background-attachment: fixed;
+ background-position: center;
+}
+.open{
+  color: white;
+  padding-top: 20%;
+  padding-left: 8%;
+}
+.open h3{
+  font-size: 20px;
+}
+
+.btn{
+  color:black;
+  background:white ;
+}
+
+
+
+
+/* ------services--------- */
+
+#service{
+  font-weight:900;
+  font-size: 30px;
+  margin-top: 80px;
+
+}
+.service-item:hover{
+  box-shadow: 0 0 45px rgba(0,0, 0, 0.08)
+}
+
+/* ----top destination-------- */
+.top{
+  margin-top: 20px;
+}
+.destination{
+  font-family: 500;
+  font-size: 25px;
+}
+.view{
+  text-decoration: none;
+  font-size: 15px;
+}
+.feature-img img{
+  width: 60%;
+  margin-top: 10px;
+
+}
+
+
+
+
+
+/* ---package item----- */
+.package-item{
+  box-shadow: 0 0 45px rgba(0,0,0,0.08);
+}
+.package-item img{
+ transition: 0.5s;
+}
+.package-item:hover img{
+   transform:scale(1.1);
+}
+#packages{
+  font-size: 30px;
+}
+
+/* -----booking---- */
+.booking{
+  background-image: linear-gradient(rgba(15,23,43,0.7),rgba(15,23,43,0.7)) , url('https://blog.thomascook.in/wp-content/uploads/2017/01/fairypools.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.floating-select destinations{
+  color: white;
+}
+
+
+
+/* ----footer------- */
+
+footer {
+  background-color: #333;     
+  color: #fff;             
+  text-align: center;   
+  padding: 15px 0;   
+  margin-top: 20px;   
+}
+
+.container {
+  max-width: 1200px;   
+  margin: 0 auto;   
+}
+.navigation{
+  text-decoration: none;
+}
+
